@@ -1,0 +1,28 @@
+.logo{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #373f41;
+    font-family: "Montserrat",sans-serif;
+}
+header ul{
+    list-style-type:none;
+    position: relative;
+    display: block;
+    transform: translateX(50%);
+}
+.ceo{
+    height: 200px;
+}
+::after , ::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+header button{
+    display: flex;
+    position: absolute;
+    height: 42px;
+    left: 80%;
+}
